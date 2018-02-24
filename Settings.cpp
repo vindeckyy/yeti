@@ -86,16 +86,16 @@ void Settings::Update( )
 	resolverconfig.bLowerbodyIndicator = Menu::Window.RageBotTab.LowerbodyIndicator.GetState( );
 
 	//Legit
-	legitconfig.pistol.bActivated = Menu::Window.LegitTab.rifle.Enabled.GetState( );
-	legitconfig.pistol.iAimbotMode = Menu::Window.LegitTab.rifle.AimbotMode.GetIndex( );
-	legitconfig.pistol.bAutoFire = Menu::Window.LegitTab.rifle.AutoFire.GetState( );
-	legitconfig.pistol.iAutoFireMode = Menu::Window.LegitTab.rifle.AutoFireMode.GetIndex( );
-	legitconfig.pistol.iAutoFireTarget = Menu::Window.LegitTab.rifle.AutoFireTarget.GetIndex( );
-	legitconfig.pistol.iAutoFireKey = Menu::Window.LegitTab.rifle.AutoFireKey.GetKey( );
-	legitconfig.pistol.flFOV = Menu::Window.LegitTab.rifle.FieldOfView.GetValue( );
-	legitconfig.pistol.iReactionTime = Menu::Window.LegitTab.rifle.ReactionTime.GetIndex( );
-	legitconfig.pistol.flRecoil = Menu::Window.LegitTab.rifle.Recoil.GetValue( );
-	legitconfig.pistol.flSmoothing = Menu::Window.LegitTab.rifle.Smoothing.GetValue( );
+	legitconfig.pistol.bActivated = Menu::Window.LegitTab.pistol.Enabled.GetState( );
+	legitconfig.pistol.iAimbotMode = Menu::Window.LegitTab.pistol.AimbotMode.GetIndex( );
+	legitconfig.pistol.bAutoFire = Menu::Window.LegitTab.pistol.AutoFire.GetState( );
+	legitconfig.pistol.iAutoFireMode = Menu::Window.LegitTab.pistol.AutoFireMode.GetIndex( );
+	legitconfig.pistol.iAutoFireTarget = Menu::Window.LegitTab.pistol.AutoFireTarget.GetIndex( );
+	legitconfig.pistol.iAutoFireKey = Menu::Window.LegitTab.pistol.AutoFireKey.GetKey( );
+	legitconfig.pistol.flFOV = Menu::Window.LegitTab.pistol.FieldOfView.GetValue( );
+	legitconfig.pistol.iReactionTime = Menu::Window.LegitTab.pistol.ReactionTime.GetIndex( );
+	legitconfig.pistol.flRecoil = Menu::Window.LegitTab.pistol.Recoil.GetValue( );
+	legitconfig.pistol.flSmoothing = Menu::Window.LegitTab.pistol.Smoothing.GetValue( );
 
 	legitconfig.smg.bActivated = Menu::Window.LegitTab.smg.Enabled.GetState( );
 	legitconfig.smg.iAimbotMode = Menu::Window.LegitTab.smg.AimbotMode.GetIndex( );
