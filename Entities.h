@@ -685,9 +685,9 @@ public:
 		return *(int*)((DWORD)this + m_Clip);
 	}
 	float GetSpread() { return call_vfunc<float(__thiscall*)(void*)>(this, 439)(this); }
-	CSWeaponInfo* GetCSWpnData() { return call_vfunc<CSWeaponInfo*(__thiscall*)(void*)>(this, 446)(this); }
-	float GetCone() { return call_vfunc<float(__thiscall*)(void*)>(this, 469)(this); }
-	void UpdateAccuracyPenalty() { call_vfunc<void(__thiscall*)(void*)>(this, 470)(this); }
+	CSWeaponInfo* GetCSWpnData() { return call_vfunc<CSWeaponInfo*(__thiscall*)(void*)>(this, 447)(this); }
+	float GetCone() { return call_vfunc<float(__thiscall*)(void*)>(this, 470)(this); }
+	void UpdateAccuracyPenalty() { call_vfunc<void(__thiscall*)(void*)>(this, 471)(this); }
 	float GetAccuracyPenalty()
 	{
 		static int m_fAccuracyPenalty = GET_NETVAR("DT_WeaponCSBase", "m_fAccuracyPenalty");
