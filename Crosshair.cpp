@@ -1,3 +1,5 @@
+#include Crosshair.h
+
 // Constants
 const float RADIUS = 30.f;
 const int X_CENTER = screen_size_x / 2;
